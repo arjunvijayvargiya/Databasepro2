@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/brownwood" >
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Free SMS"
+        android:textAppearance="?android:attr/textAppearanceLarge" 
+        android:textSize="30sp"/>
+
+
+
+     
+    
+    <ImageView
+        android:id="@+id/imagedown"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/playstore"
+        android:clickable="true" />
+     <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sync Free SMS "
+        android:textAppearance="?android:attr/textAppearanceLarge" 
+        android:textColor="#0fa9f0"/>
+      <ImageView
+        android:id="@+id/imagesee"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/mail"
+        android:clickable="true" />
+     <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Send Free SMS"
+        android:textAppearance="?android:attr/textAppearanceLarge" 
+        android:textColor="#0fa9f0"/>
+    
+
+</LinearLayout>

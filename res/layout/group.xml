@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/brownwood" 
+    xmlns:ads="http://schemas.android.com/apk/res-auto">
+
+ <TextView
+     android:id="@+id/textView1"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:layout_gravity="center"
+     android:text="Group Name"
+     android:textAppearance="?android:attr/textAppearanceLarge" />
+
+   <EditText
+       android:id="@+id/grpnmedtxt"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:ems="10" >
+
+       <requestFocus />
+   </EditText>
+
+   <TextView
+       android:id="@+id/textView2"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_gravity="center"
+       android:text="Add Members"
+       android:textAppearance="?android:attr/textAppearanceLarge" />
+
+   <AutoCompleteTextView
+android:id="@+id/txtCountries"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:drawableLeft="@android:drawable/ic_menu_search" />
+
+   <Button
+       android:id="@+id/addb"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="Add" />
+
+   <Button
+       android:id="@+id/regb"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="Register" />
+   <com.google.android.gms.ads.AdView android:id="@+id/adView2"
+                           android:layout_width="match_parent"
+                           android:layout_height="wrap_content"
+                           ads:adSize="BANNER"
+                           ads:adUnitId="ca-app-pub-7214441340887762/4524043938"/>
+
+</LinearLayout>

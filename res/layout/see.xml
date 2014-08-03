@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+xmlns:android="http://schemas.android.com/apk/res/android" 
+xmlns:ads="http://schemas.android.com/apk/res-auto">
+<LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@drawable/brownwood">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:background="@drawable/brownwood"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Group Messenger"
+            android:textColor="#ffa500"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+   </LinearLayout>
+   <TextView
+            android:id="@+id/tehead"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Search Group"
+            android:textColor="#B5E622"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+<AutoCompleteTextView
+android:id="@+id/txtCountries"
+android:layout_width="match_parent"
+android:layout_height="wrap_content" />
+<LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:background="@drawable/brownwood"
+        android:orientation="vertical" >
+        <TextView
+            android:id="@+id/tehead2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Pre-Existing Groups"
+            android:textColor="#B5E622"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+   </LinearLayout>
+ <Spinner
+        android:id="@+id/spinner2"
+        android:layout_width="match_parent"
+        android:layout_height="60sp"
+        android:background="@android:color/white"
+        android:drawSelectorOnTop="true" />
+ <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:background="@drawable/brownwood"
+        android:orientation="vertical" >
+
+   </LinearLayout>
+
+<TextView
+    android:id="@+id/textView1"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:text="Group Members"
+    android:textColor="#B5E622"
+    android:textAppearance="?android:attr/textAppearanceLarge" />
+
+<EditText
+    android:id="@+id/grupnumss"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:ems="10" >
+
+    <requestFocus />
+</EditText>
+<TextView
+    android:id="@+id/textView2"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:text="Group Members Number"
+     android:textColor="#B5E622"
+    android:textAppearance="?android:attr/textAppearanceLarge" />
+
+<EditText
+    android:id="@+id/cyclops"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:ems="10" >
+
+    <requestFocus />
+</EditText>
+
+<TextView
+    android:id="@+id/textView2"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:text="Message"
+     android:textColor="#B5E622"
+    android:textAppearance="?android:attr/textAppearanceLarge" />
+ <EditText
+        android:id="@+id/messagegrup"
+        android:layout_width="match_parent"
+        android:layout_height="180sp"
+        android:ems="10"
+        android:background="@android:color/white"
+        android:hint="Enter your message"
+        android:gravity="top"
+        android:inputType="textMultiLine" />
+
+ <Button
+     android:id="@+id/sendgripmessage"
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:text="Send" />
+ <com.google.android.gms.ads.AdView android:id="@+id/adView3"
+                           android:layout_width="match_parent"
+                           android:layout_height="wrap_content"
+                           ads:adSize="BANNER"
+                           ads:adUnitId="ca-app-pub-7214441340887762/1151775133"/>
+
+</LinearLayout>
+</ScrollView>

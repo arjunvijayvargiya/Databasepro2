@@ -1,0 +1,210 @@
+<ScrollView
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:ads="http://schemas.android.com/apk/res-auto" >
+
+<LinearLayout
+    android:id="@+id/LinearLayout1"
+    android:layout_width="fill_parent"
+    android:layout_height="540dp"
+    android:background="@drawable/brownwood"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/headerx"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="16dp"
+        android:text="NTPC MESSENGER"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#ffae19"
+        android:textSize="25sp" />
+
+    <LinearLayout
+        android:id="@+id/LinearLayout2"
+        android:layout_width="fill_parent"
+        android:layout_height="40sp"
+        android:background="@drawable/brownwood"
+        android:orientation="vertical" >
+    </LinearLayout>
+
+    
+     <TextView
+       android:id="@+id/textView2x"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_gravity="center"
+       android:text="Search Member"
+        android:textColor="#ccff00"
+       android:textAppearance="?android:attr/textAppearanceLarge" />
+
+   <AutoCompleteTextView
+android:id="@+id/txtcountriesx"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:drawableLeft="@android:drawable/ic_menu_search" />
+
+    <LinearLayout
+        android:id="@+id/LinearLayout3"
+        android:layout_width="fill_parent"
+        android:layout_height="40sp"
+        android:background="@drawable/brownwood"
+        android:orientation="vertical" >
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/crtgrp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Create Group" />
+
+    <LinearLayout
+        android:id="@+id/LinearLayout4"
+        android:layout_width="fill_parent"
+        android:layout_height="40sp"
+        android:background="@drawable/brownwood"
+        android:orientation="vertical" >
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/grpmsnger"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Group Messenger" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Name"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#ccff00" />
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="300sp"
+        android:layout_height="40sp"
+        android:layout_gravity="center"
+        android:background="@drawable/edix"
+        android:ems="10"
+        android:hint="Enter your name" >
+
+        <requestFocus />
+    </EditText>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Phone"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#ccff00" />
+
+    <EditText
+        android:id="@+id/phone"
+        android:layout_width="300sp"
+        android:layout_height="40sp"
+        android:layout_gravity="center"
+        android:background="@drawable/edix"
+        android:ems="10"
+        android:hint="Enter your phone number" />
+
+    <TextView
+        android:id="@+id/messagetext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Message"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#ccff00" />
+
+    <EditText
+        android:id="@+id/message"
+        android:layout_width="300sp"
+        android:layout_height="180sp"
+        android:layout_gravity="center"
+        android:background="@drawable/edix"
+        android:ems="10"
+        android:gravity="top"
+        android:hint="Enter your message"
+        android:inputType="textMultiLine" />
+    <LinearLayout
+        android:id="@+id/calix"
+        android:layout_width="fill_parent"
+        android:layout_height="40sp"
+        android:background="@drawable/brownwood"
+        android:orientation="vertical" >
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/Linearla"
+        android:layout_width="fill_parent"
+        android:layout_height="60sp"
+        android:background="@drawable/brownwood"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/sendbut"
+            android:layout_width="112dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.29"
+            android:text="Send" />
+
+        <Button
+            android:id="@+id/call"
+            android:layout_width="112dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.33"
+            android:text="Call" 
+           />
+    </LinearLayout>
+    
+    <TextView
+        android:id="@+id/emailtextview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Email-ID"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#ccff00" />
+
+    <EditText
+        android:id="@+id/emailedittext"
+        android:layout_width="300sp"
+        android:layout_height="40sp"
+        android:layout_gravity="center"
+        android:background="@drawable/edix"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        android:hint="Enter your Email id" />
+<LinearLayout
+        android:id="@+id/Rox"
+        android:layout_width="fill_parent"
+        android:layout_height="40sp"
+        android:background="@drawable/brownwood"
+        android:orientation="vertical" >
+    </LinearLayout>
+<Button
+    android:id="@+id/emailbutton"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_weight="0.33"
+    android:text="E-MAIL" />
+
+    <Button
+        android:id="@+id/freesms"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="FreeSms" />
+    <com.google.android.gms.ads.AdView android:id="@+id/adView1"
+                           android:layout_width="match_parent"
+                           android:layout_height="wrap_content"
+                           ads:adSize="BANNER"
+                           ads:adUnitId="ca-app-pub-7214441340887762/4524043938"/>
+</LinearLayout>
+
+</ScrollView>
